@@ -2,16 +2,17 @@
 
 ## First part - genetic algorithm
 
-Use genetic algorithm and python to effectively assign teachers to groups.
+Перша частина - генетичний алгоритм
+Використовуйте генетичний алгоритм і python для ефективного розподілу вчителів по групах.
 
-To run the genetic_alg.py:
-1) set the groups of students at the top of main file (or leave unchanged)
-2) set the teachers (or leave unchanged)
-3) set the population size and number of iterations (or leave unchanged
-4) run genetic_alg.py
-5) inspect the outputs: first line is max possible score, then you can see progress of local maximum though the iterations. Then you see the best found schedule. At the bottom of the output you can compare metrics of a random population and the population after a genetic algorithm.
+Щоб запустити genetic_alg.py потрібно:
 
-Example of the last output part:
+встановити групи студентів у верхній частині основного файлу (або залишити без змін)
+встановити вчителів (або залишити без змін)
+встановити розмір популяції та кількість ітерацій (або залишити без змін)
+запустити genetic_alg.py
+перевірте результати: перший рядок — максимально можливий бал, потім ви можете побачити прогрес локального максимуму через ітерації. Тоді ви побачите найкращий знайдений розклад. У нижній частині результату ви можете порівняти показники випадкової популяції та популяції після генетичного алгоритму.
+Приклад останньої вихідної частини:
 
 ```
 -----genetic algorithm-----
@@ -22,17 +23,17 @@ Example of the last output part:
 @@@@ best score: 47
 ```
 
-As we see, the average score among the population rises significantly.
+Як бачимо, середній бал популяції значно підвищується.
 
 ## Second part - CSP algorithm
 
-Then we solve a Constraint satisfaction problem to assign teachers and groups to correct hours and days.
+Потім ми вирішуємо проблему задоволення обмежень, щоб призначити вчителям і групам правильні години та дні.
 
-The code for CSP algorithm is stored in CSP.py file.
+Код для алгоритму CSP зберігається у файлі CSP.py.
 
-To get the final schedule - run the main.py file.
+Щоб отримати остаточний розклад - запустіть файл main.py.
 
-Example output:
+Приклад результату:
 
 ```
 Monday
